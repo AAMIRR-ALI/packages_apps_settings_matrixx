@@ -55,14 +55,24 @@
         android:order="-120"
         android:key="top_level_personalize_category"
         android:layout="@layout/settingslib_expressive_untitled_preference_category">
+
         <com.android.settings.widget.HomepagePreference
-            android:fragment="com.android.settings.applications.AppDashboardFragment"
-            android:icon="@drawable/ic_apps_filled"
-            android:key="top_level_apps"
-            android:order="-60"
-            android:title="@string/apps_dashboard_title"
-            android:summary="@string/app_and_notification_dashboard_summary"
-            settings:highlightableMenuKey="@string/menu_key_apps"/>
+        android:fragment="com.havoc.settings.laboratory.LabSettings"
+        android:icon="@drawable/ic_havoc_lab"
+        android:key="top_level_lab"
+        android:order="-50"
+        android:title="@string/havoc_lab_title"
+        android:summary="@string/havoc_lab_summary"
+        settings:controller="com.havoc.settings.laboratory.TopLevelMatrixxLabPreferenceController.java"/>
+
+        <com.android.settings.widget.HomepagePreference
+        android:fragment="com.android.settings.applications.AppDashboardFragment"
+        android:icon="@drawable/ic_apps_filled"
+        android:key="top_level_apps"
+        android:order="-60"
+        android:title="@string/apps_dashboard_title"
+        android:summary="@string/app_and_notification_dashboard_summary"
+        settings:highlightableMenuKey="@string/menu_key_apps"/>
 
         <com.android.settings.widget.HomepagePreference
             android:fragment="com.android.settings.notification.ConfigureNotificationSettings"

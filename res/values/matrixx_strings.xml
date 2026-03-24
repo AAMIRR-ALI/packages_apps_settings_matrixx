@@ -48,4 +48,11 @@
 
     <!-- Default Timeouts -->
     <string name="custom_timeout_summary_1hour_def">1 hour (Default)</string>
+
+
+     <!-- Havoc lab -->
+    <string name="havoc_lab_title">Paranoid lab</string>
+    <string name="havoc_lab_footer">Some Paranoid things</string>
+    <string name="havoc_lab_summary">Just some Extra features</string>
+
 </resources>

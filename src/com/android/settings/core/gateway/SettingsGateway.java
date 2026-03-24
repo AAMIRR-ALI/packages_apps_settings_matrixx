@@ -16,6 +16,7 @@
 
 package com.android.settings.core.gateway;
 
+import com.havoc.settings.laboratory.LabSettings;
 import com.android.settings.DisplaySettings;
 import com.android.settings.IccLockSettings;
 import com.android.settings.MainClear;
@@ -432,6 +433,8 @@ public class SettingsGateway {
             SupervisionDashboardFragment.class.getName(),
             SummarizationPreferenceFragment.class.getName(),
             SafetyCenterFragment.class.getName(),
+            LabSettings.class.getName(),
+            
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -480,5 +483,6 @@ public class SettingsGateway {
             Settings.MemtagPageActivity.class.getName(),
             Settings.NavigationModeSettingsActivity.class.getName(),
             Settings.ShadeSettingsActivity.class.getName(),
+            Settings.StartLabActivity.class.getName(),
     };
 }
