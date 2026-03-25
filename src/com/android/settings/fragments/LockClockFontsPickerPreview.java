@@ -14,3 +14,43 @@
  * limitations under the License.
  */
 package com.android.settings.fragments;
+
+import android.os.Bundle;
+import androidx.preference.Preference;
+import androidx.preference.PreferenceScreen;
+
+import com.android.settings.R;
+import com.android.settings.dashboard.DashboardFragment;
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settingslib.search.SearchIndexable;
+
+@SearchIndexable
+public class LockClockFontsPickerPreview extends DashboardFragment {
+
+    private static final String TAG = "LockClockFontsPickerPreview";
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        PreferenceScreen preferenceScreen = getPreferenceScreen();
+    }
+
+    @Override
+    public int getMetricsCategory() {
+        return METRICS_CATEGORY_UNKNOWN;
+    }
+
+    @Override
+    protected String getLogTag() {
+        return TAG;
+    }
+
+    @Override
+    protected int getPreferenceScreenResId() {
+        return R.xml.system_settings;
+    }
+
+    public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider(R.xml.system_settings);
+}
