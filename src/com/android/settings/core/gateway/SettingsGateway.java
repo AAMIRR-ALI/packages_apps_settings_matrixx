@@ -223,7 +223,6 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSettings2;
 import com.havoc.settings.laboratory.System;
 import com.havoc.settings.laboratory.UserInterface;
-import com.havoc.settings.laboratory.QSPanelSettings;
 import com.android.settings.fragments.LockClockFontsPickerPreview;
 import com.havoc.settings.laboratory.Spoofing;
 import com.havoc.settings.laboratory.Bottoms;
