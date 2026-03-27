@@ -6092,7 +6092,7 @@
         </activity>
         <!-- statusBar Settings -->
         <activity android:name="Settings$PersonalizationsThemesActivity"
-                  android:label="@string/themes_title"
+                  android:label="@string/statusbar_options_title"
                   android:icon="@drawable/ic_palette_24"
                   android:exported="true">
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
@@ -6101,7 +6101,7 @@
 
         <!-- LockClock Settings -->
         <activity android:name="Settings$PersonalizationsClockFacesActivity"
-                  android:label="@string/theme_customization_lock_clock_title"
+                  android:label="@string/lockscreen_options_title"
                   android:icon="@drawable/ic_palette_24"
                   android:exported="true">
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
@@ -6110,7 +6110,7 @@
 
         <!-- Misc Settings -->
         <activity android:name="Settings$PersonalizationsSpoofActivity"
-                  android:label="@string/spoofing_options_title"
+                  android:label="@string/misc_options_title"
                   android:icon="@drawable/ic_spoofing"
                   android:exported="true">
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
@@ -6119,7 +6119,7 @@
 
         <!-- Button Settings -->
         <activity android:name="Settings$PersonalizationsBottomActivity"
-                  android:label="@string/bottom_options_title"
+                  android:label="@string/sound_options_title"
                   android:icon="@drawable/ic_spoofing"
                   android:exported="true">
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
@@ -6128,7 +6128,7 @@
 
         <!-- Notification Settings -->
         <activity android:name="Settings$PersonalizationsStatusbarActivity"
-                  android:label="@string/notifications_options_title"
+                  android:label="@string/notification_options_title"
                   android:icon="@drawable/ic_spoofing"
                   android:exported="true">
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
