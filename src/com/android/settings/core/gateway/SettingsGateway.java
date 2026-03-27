@@ -221,10 +221,13 @@ import com.android.settings.wifi.calling.WifiCallingSettings;
 import com.android.settings.wifi.details.WifiNetworkDetailsFragment;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSettings2;
-import com.havoc.settings.laboratory.System;
+import com.havoc.settings.laboratory.QSPanelSettings;
+import com.havoc.settings.laboratory.About;
+import com.havoc.settings.laboratory.Sound;
+import com.havoc.settings.laboratory.Notifications;
 import com.havoc.settings.laboratory.UserInterface;
-import com.android.settings.fragments.LockClockFontsPickerPreview;
-import com.havoc.settings.laboratory.Spoofing;
+import com.havoc.settings.laboratory.LockScreen;
+import com.havoc.settings.laboratory.Misc;
 import com.havoc.settings.laboratory.Bottoms;
 import com.havoc.settings.laboratory.Statusbar;
 import com.android.settings.wifi.tether.WifiTetherSettings;
@@ -441,11 +444,14 @@ public class SettingsGateway {
             SafetyCenterFragment.class.getName(),
             LabSettings.class.getName(),
             UserInterface.class.getName(),
-            System.class.getName(),
-            LockClockFontsPickerPreview.class.getName(),
-            Spoofing.class.getName(),
+            Notifications.class.getName(),
+            LockScreen.class.getName(),
+            Misc.class.getName(),
             Bottoms.class.getName(),
-            Statusbar.class.getName()
+            Statusbar.class.getName(),
+            Sound.class.getName(),
+            QSPanelSettings.class.getName(),
+            About.class.getName()
             
     };
 
@@ -496,11 +502,14 @@ public class SettingsGateway {
             Settings.NavigationModeSettingsActivity.class.getName(),
             Settings.ShadeSettingsActivity.class.getName(),
             Settings.StartLabActivity.class.getName(),
+            Settings.PersonalizationsLockscreenActivity.class.getName(),
             Settings.PersonalizationsToolboxActivity.class.getName(),
             Settings.PersonalizationsThemesActivity.class.getName(),
             Settings.PersonalizationsClockFacesActivity.class.getName(),
             Settings.PersonalizationsSpoofActivity.class.getName(),
             Settings.PersonalizationsBottomActivity.class.getName(),
-            Settings.PersonalizationsStatusbarActivity.class.getName()
+            Settings.PersonalizationsStatusbarActivity.class.getName(),
+            Settings.PersonalizationsButtonActivity.class.getName()
+            Settings.PersonalizationsAboutActivity.class.getName()
     };
 }

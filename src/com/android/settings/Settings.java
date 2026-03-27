@@ -663,4 +663,6 @@ public class Settings extends SettingsActivity {
     public static class PersonalizationsSpoofActivity extends SettingsActivity {}
     public static class PersonalizationsBottomActivity extends SettingsActivity {}
     public static class PersonalizationsStatusbarActivity extends SettingsActivity {}
+    public static class PersonalizationsButtonActivity extends SettingsActivity {}
+    public static class PersonalizationsAboutActivity extends SettingsActivity {}
 }
