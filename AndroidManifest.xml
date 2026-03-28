@@ -6105,7 +6105,7 @@
                   android:icon="@drawable/ic_palette_24"
                   android:exported="true">
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                       android:value="com.havoc.settings.laboratory.Lockscreen" />
+                       android:value="com.havoc.settings.laboratory.LockScreen" />
         </activity>
 
         <!-- Misc Settings -->
