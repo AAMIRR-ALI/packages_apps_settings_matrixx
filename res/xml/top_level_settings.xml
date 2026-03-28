@@ -58,7 +58,7 @@
 
         <com.android.settings.widget.HomepagePreference
         android:fragment="com.havoc.settings.laboratory.LabSettings"
-        android:icon="@drawable/ic_havoc_lab"
+        android:icon="@drawable/ic_matrixx"
         android:key="top_level_lab"
         android:order="-50"
         android:title="@string/havoc_lab_title"

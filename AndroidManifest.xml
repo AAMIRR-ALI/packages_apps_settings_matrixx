@@ -6063,7 +6063,7 @@
        <activity android:name="Settings$StartLabActivity"
             android:label="@string/havoc_lab_title"
             android:exported="true"
-            android:icon="@drawable/ic_havoc_lab">
+            android:icon="@drawable/ic_homepage_matrixx">
             <intent-filter>
                 <action android:name="com.android.settings.action.SETTINGS" />
                 <category android:name="android.intent.category.DEFAULT" />
