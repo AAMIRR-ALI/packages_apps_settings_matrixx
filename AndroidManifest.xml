@@ -6084,7 +6084,7 @@
         </activity>
         <!-- Qs Settings -->
         <activity android:name="Settings$PersonalizationsToolboxActivity"
-                  android:label="@string/toolbox_title"
+                  android:label="@string/qs_panel_options_title"
                   android:icon="@drawable/ic_toolbox_24"
                   android:exported="true">
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
