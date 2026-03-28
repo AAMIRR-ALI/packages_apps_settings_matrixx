@@ -6117,13 +6117,13 @@
                        android:value="com.havoc.settings.laboratory.Misc" />
         </activity>
 
-        <!-- Button Settings -->
+        <!-- Sound Settings -->
         <activity android:name="Settings$PersonalizationsBottomActivity"
                   android:label="@string/sound_options_title"
                   android:icon="@drawable/ic_spoofing"
                   android:exported="true">
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                       android:value="com.havoc.settings.laboratory.Bottoms" />
+                       android:value="com.havoc.settings.laboratory.Sound" />
         </activity>
 
         <!-- Notification Settings -->
@@ -6134,13 +6134,13 @@
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                        android:value="com.havoc.settings.laboratory.Notifications" />
         </activity>
-        <!-- Sound Settings -->
+        <!-- Button Settings -->
         <activity android:name="Settings$PersonalizationsButtonActivity"
-                  android:label="@string/sound_options_title"
+                  android:label="@string/buttons_options_title"
                   android:icon="@drawable/ic_spoofing"
                   android:exported="true">
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                       android:value="com.havoc.settings.laboratory.Sound" />
+                       android:value="com.havoc.settings.laboratory.Buttons" />
         </activity>
         <!-- About Settings -->
         <activity android:name="Settings$PersonalizationsAboutActivity"
