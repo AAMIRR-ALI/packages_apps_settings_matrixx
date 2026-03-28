@@ -228,7 +228,7 @@ import com.havoc.settings.laboratory.Notifications;
 import com.havoc.settings.laboratory.UserInterface;
 import com.havoc.settings.laboratory.LockScreen;
 import com.havoc.settings.laboratory.Misc;
-import com.havoc.settings.laboratory.Bottons;
+import com.havoc.settings.laboratory.Buttons;
 import com.havoc.settings.laboratory.Statusbar;
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
@@ -447,7 +447,7 @@ public class SettingsGateway {
             Notifications.class.getName(),
             LockScreen.class.getName(),
             Misc.class.getName(),
-            Bottons.class.getName(),
+            Buttons.class.getName(),
             Statusbar.class.getName(),
             Sound.class.getName(),
             QSPanelSettings.class.getName(),
