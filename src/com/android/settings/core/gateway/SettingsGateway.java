@@ -509,7 +509,7 @@ public class SettingsGateway {
             Settings.PersonalizationsSpoofActivity.class.getName(),
             Settings.PersonalizationsBottomActivity.class.getName(),
             Settings.PersonalizationsStatusbarActivity.class.getName(),
-            Settings.PersonalizationsButtonActivity.class.getName()
+            Settings.PersonalizationsButtonActivity.class.getName(),
             Settings.PersonalizationsAboutActivity.class.getName()
     };
 }
