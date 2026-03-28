@@ -41,8 +41,8 @@ class personalizationSettingsController(context: Context) : AbstractPreferenceCo
             R.id.spoof to Intent().setComponent(ComponentName("com.android.settings", "com.android.settings.Settings\$PersonalizationsSpoofActivity")),
             R.id.bottom_options to Intent().setComponent(ComponentName("com.android.settings", "com.android.settings.Settings\$PersonalizationsBottomActivity")),
             R.id.statusbar to Intent().setComponent(ComponentName("com.android.settings", "com.android.settings.Settings\$PersonalizationsStatusbarActivity")),
-            R.id.statusbar to Intent().setComponent(ComponentName("com.android.settings", "com.android.settings.Settings\$PersonalizationsButtoActivity")),
-            R.id.statusbar to Intent().setComponent(ComponentName("com.android.settings", "com.android.settings.Settings\$PersonalizationsAboutActivity")),
+            R.id.botton_options to Intent().setComponent(ComponentName("com.android.settings", "com.android.settings.Settings\$PersonalizationsButtonActivity")),
+            R.id.about to Intent().setComponent(ComponentName("com.android.settings", "com.android.settings.Settings\$PersonalizationsAboutActivity"))
        )
 
         clickMap.forEach { (id, intent) ->
