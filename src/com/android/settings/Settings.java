@@ -654,7 +654,7 @@ public class Settings extends SettingsActivity {
     }
     public static class SafetyCenterActivity extends SettingsActivity { }
     
-    public static class StartLabActivity extends SettingsActivity {}
+    public static class MatrixxLabActivity extends SettingsActivity {}
     
     public static class PersonalizationsLockscreenActivity extends SettingsActivity {}
     public static class PersonalizationsToolboxActivity extends SettingsActivity {}

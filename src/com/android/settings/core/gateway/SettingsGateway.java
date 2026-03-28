@@ -16,7 +16,7 @@
 
 package com.android.settings.core.gateway;
 
-import com.havoc.settings.laboratory.LabSettings;
+import com.matrixx.settings.MatrixxLabSettings;
 import com.android.settings.DisplaySettings;
 import com.android.settings.IccLockSettings;
 import com.android.settings.MainClear;
@@ -221,15 +221,15 @@ import com.android.settings.wifi.calling.WifiCallingSettings;
 import com.android.settings.wifi.details.WifiNetworkDetailsFragment;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSettings2;
-import com.havoc.settings.laboratory.QSPanelSettings;
-import com.havoc.settings.laboratory.About;
-import com.havoc.settings.laboratory.Sound;
-import com.havoc.settings.laboratory.Notifications;
-import com.havoc.settings.laboratory.UserInterface;
-import com.havoc.settings.laboratory.LockScreen;
-import com.havoc.settings.laboratory.Misc;
-import com.havoc.settings.laboratory.Buttons;
-import com.havoc.settings.laboratory.Statusbar;
+import com.matrixx.settings.QSPanelSettings;
+import com.matrixx.settings.About;
+import com.matrixx.settings.Sound;
+import com.matrixx.settings.Notifications;
+import com.matrixx.settings.UserInterface;
+import com.matrixx.settings.LockScreen;
+import com.matrixx.settings.Misc;
+import com.matrixx.settings.Buttons;
+import com.matrixx.settings.Statusbar;
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
 public class SettingsGateway {
@@ -442,7 +442,7 @@ public class SettingsGateway {
             SupervisionDashboardFragment.class.getName(),
             SummarizationPreferenceFragment.class.getName(),
             SafetyCenterFragment.class.getName(),
-            LabSettings.class.getName(),
+            MatrixxLabSettings.class.getName(),
             UserInterface.class.getName(),
             Notifications.class.getName(),
             LockScreen.class.getName(),
@@ -501,7 +501,7 @@ public class SettingsGateway {
             Settings.MemtagPageActivity.class.getName(),
             Settings.NavigationModeSettingsActivity.class.getName(),
             Settings.ShadeSettingsActivity.class.getName(),
-            Settings.StartLabActivity.class.getName(),
+            Settings.MatrixxLabActivity.class.getName(),
             Settings.PersonalizationsLockscreenActivity.class.getName(),
             Settings.PersonalizationsToolboxActivity.class.getName(),
             Settings.PersonalizationsThemesActivity.class.getName(),
