@@ -6136,7 +6136,7 @@
         </activity>
         <!-- Button Settings -->
         <activity android:name="Settings$PersonalizationsButtonActivity"
-                  android:label="@string/buttons_options_title"
+                  android:label="@string/button_options_title"
                   android:icon="@drawable/ic_spoofing"
                   android:exported="true">
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
