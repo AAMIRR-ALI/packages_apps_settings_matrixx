@@ -57,13 +57,13 @@
         android:layout="@layout/settingslib_expressive_untitled_preference_category">
 
         <com.android.settings.widget.HomepagePreference
-        android:fragment="com.havoc.settings.laboratory.LabSettings"
+        android:fragment="com.matrixx.settings.MatrixxLabSettings"
         android:icon="@drawable/ic_matrixx"
         android:key="top_level_lab"
         android:order="-50"
-        android:title="@string/havoc_lab_title"
-        android:summary="@string/havoc_lab_summary"
-        settings:controller="com.havoc.settings.laboratory.TopLevelMatrixxLabPreferenceController.java"/>
+        android:title="@string/matrixx_lab_title"
+        android:summary="@string/hmatrixx_lab_summary"
+        settings:controller="com.matrixx.settings.TopLevelMatrixxLabPreferenceController.java"/>
 
         <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.applications.AppDashboardFragment"
