@@ -23,6 +23,17 @@
     <com.android.settingslib.widget.UntitledPreferenceCategory
         android:order="-130"
         android:key="top_level_connectivity_category">
+
+        <com.android.settings.widget.HomepagePreference
+        android:fragment="com.matrixx.settings.MatrixxLabSettings"
+        android:icon="@drawable/ic_homepage_matrixx"
+        android:key="top_level_lab"
+        android:order="-10"
+        android:title="@string/matrixx_lab_title"
+        android:summary="@string/matrixx_lab_summary"
+        settings:controller="com.matrixx.settings.TopLevelSettingsPreferenceController"/>
+
+
         <com.android.settings.widget.HomepagePreference
             android:fragment="com.android.settings.network.NetworkDashboardFragment"
             android:icon="@drawable/ic_homepage_network"
