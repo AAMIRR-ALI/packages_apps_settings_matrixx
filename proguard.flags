@@ -11,7 +11,7 @@
     void <init>();
 }
 
--keep class com.havoc.settings.**
+-keep class com.MatrixxLab.settings.**
 
 # Keep all preference controllers needed by slice and DashboardFragment.
 -keep class * extends com.android.settings.core.BasePreferenceController {

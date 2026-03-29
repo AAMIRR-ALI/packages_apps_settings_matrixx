@@ -1,2 +1,2 @@
 # MatrixxSettings
--keep class com.havoc.settings.**
+-keep class com.MatrixxLab.settings.**
